@@ -1,0 +1,86 @@
+/* ---------------- banner ---------------- */
+body>div:nth-child(2) {
+
+    min-height: 90vh;
+    background-image: url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+body>div:nth-child(2)::before {
+    content: "";
+    background: rgb(0, 71, 151);
+    background: linear-gradient(90deg, rgba(0, 71, 151, 1) 0%, rgba(36, 139, 255, 1) 0100%);
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+body>div:nth-child(2)::after {
+    content: "";
+    background-image: url("../img/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.primary {
+    background-color: #004797 !important;
+}
+
+.secondary {
+    background-color: #00acff !important;
+    border: 1px solid #00acff;
+}
+
+.secondary:hover {
+    background-color: #0077b3 !important;
+    border: 1px solid #0077b3;
+}
+
+/* ---------------- select ---------------- */
+
+
+
+
+
+body > div:nth-child(2) > div > div > div > div > div > div > a{
+    border: none !important;
+    background-color: transparent;
+    color: black;
+}
+body > div:nth-child(2) > div > div > div > div > div > div > a:hover{
+    border: none !important;
+    background-color: transparent;
+    color: black;
+}
+body > div:nth-child(2) > div > div > div > div > div > div > a:target{
+    border: none !important;
+    background-color: transparent;
+    color: black;
+}
+
+body > div:nth-child(2) > div > div > div > div > div:nth-child(4) > button{
+    width: 100%;
+    height: 100%;
+}
+/* ---------------- cards profile ---------------- */
+
+
+.card-title{
+    position: absolute;
+    bottom:20px;
+}
+.card-subtitle{
+    
+    position: absolute;
+    bottom: 5px;
+}
